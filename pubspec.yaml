@@ -1,0 +1,31 @@
+name: collector_trade_assistant
+description: Aplikasi Collector & Trade Assistant berbasis AI untuk kurasi dan tukar-tambah barang hobi.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Google Gemini AI SDK
+  google_generative_ai: ^0.4.3
+
+  # Render Markdown dari respons AI
+  flutter_markdown: ^0.7.3
+
+  # Generate UUID untuk ID pesan
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
